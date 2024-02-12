@@ -40,7 +40,6 @@ public class SpaceShooter extends Application {
     
     private boolean reset = false;
 
-    // Add a new label to display the score
     private final Label scoreLabel = new Label("Score: " + score);
 
     private final Label lifeLabel = new Label("Lives: " + numLives);

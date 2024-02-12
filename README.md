@@ -1,9 +1,48 @@
-# Space-Invader-Game
-A simple but great game powered by Java's JavaFX
-I am thrilled to showcase my latest project, SpaceInvader, a JavaFX- and AI-powered game that I developed. This project is the culmination of my passion for both programming and gaming. I wanted to create a game that would challenge players' skills while also incorporating cutting-edge technology.
+# Space Shooter Game JavaFX
 
-SpaceInvader is a classic arcade-style game that takes players on a journey through space, where they must fight off waves of invading alien spacecraft. The game features stunning graphics and sound effects, which I designed using JavaFX, a powerful and versatile platform for developing user interfaces.
+## Overview
+Space Shooter is an engaging JavaFX-based game where players navigate a spaceship, avoiding enemies and obstacles while trying to achieve the highest score possible. The game incorporates features such as enemy spawn logic, collision detection, power-ups, and a scoring system, showcasing the capabilities of JavaFX in creating interactive 2D games.
 
-What sets SpaceInvader apart from other arcade games is the integration of AI technology. I incorporated a machine learning algorithm that allows the game to adapt to the player's skills and provide a more challenging experience as they progress. This feature adds a new level of excitement and unpredictability to the game.
+## Features
+- Control a spaceship using keyboard inputs (A, W, S, D, or arrow keys) to move and SPACE to shoot.
+- Enemies and boss enemies spawn at intervals, increasing the game's difficulty.
+- Collect power-ups to boost your abilities.
+- Score tracking and display, with the game increasing in difficulty as your score rises.
+- Lives system where players lose a life if an enemy reaches the bottom of the screen or collides with the player's spaceship.
+- Reset mechanism to start over once all lives are lost.
 
-Overall, I am incredibly proud of what I was able to achieve with SpaceInvader. It combines my love of gaming and programming and showcases my skills in developing complex software solutions. I hope that others will enjoy playing the game as much as I enjoyed creating it.
+## Prerequisites
+- JDK 11 or higher.
+- JavaFX SDK (version compatible with your JDK).
+
+## Setup and Installation
+1. **JavaFX SDK**: Download the JavaFX SDK from [OpenJFX](https://openjfx.io/) and extract it to a known directory.
+2. **Clone the Repository**: Use `git clone <repository-url>` to clone this repository to your local machine.
+
+## Configuration
+Ensure JavaFX is correctly set up in your development environment:
+- **IntelliJ IDEA**:
+    1. Go to `File` > `Project Structure` > `Libraries`, add the JavaFX SDK as a library by navigating to its `lib` folder.
+    2. Modify your run configuration to include VM options for the JavaFX modules you use, e.g., `--module-path "path/to/javafx-sdk/lib" --add-modules javafx.controls,javafx.fxml,javafx.media`.
+
+- **Eclipse**:
+    1. Add the JavaFX SDK as an external JAR to your project's build path.
+    2. Adjust the run configurations to include the necessary VM arguments, as shown above for IntelliJ.
+
+## Running the Application
+Compile and run the `SpaceShooter.java` file. Ensure the VM options are set correctly to include the JavaFX library path and modules.
+
+## How to Play
+- Use the A, W, S, D keys or arrow keys to move the spaceship.
+- Press SPACE to shoot at enemies.
+- Avoid letting enemies reach the bottom of the screen or colliding with them.
+- Collect power-ups to enhance your capabilities and increase your score.
+- The game ends when all lives are lost, but you can start over by resetting the game.
+
+## Contributing
+Contributions to the Space Shooter game are welcome! Please fork the repository, make your changes, and submit a pull request with your improvements.
+
+## License
+This project is licensed under the Creative Commons License.
+
+---
