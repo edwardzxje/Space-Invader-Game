@@ -3,6 +3,26 @@
 ## Overview
 Space Shooter is an engaging JavaFX-based game where players navigate a spaceship, avoiding enemies and obstacles while trying to achieve the highest score possible. The game incorporates features such as enemy spawn logic, collision detection, power-ups, and a scoring system, showcasing the capabilities of JavaFX in creating interactive 2D games.
 
+## User Interface
+
+### Start Screen
+
+<p align="center" style="cursor: pointer">
+    <img src="start.png" alt="The WeatherMate App Interface" width="100%"/>
+</p>
+
+### Gameplay
+
+<p align="center" style="cursor: pointer">
+    <img src="gameplay.png" alt="The WeatherMate App Interface" width="100%"/>
+</p>
+
+### Losing Screen
+
+<p align="center" style="cursor: pointer">
+    <img src="losing.png" alt="The WeatherMate App Interface" width="100%"/>
+</p>
+
 ## Features
 - Control a spaceship using keyboard inputs (A, W, S, D, or arrow keys) to move and SPACE to shoot.
 - Enemies and boss enemies spawn at intervals, increasing the game's difficulty.
