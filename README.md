@@ -66,3 +66,5 @@ Contributions to the Space Shooter game are welcome! Please fork the repository,
 This project is licensed under the Creative Commons License.
 
 ---
+
+Created with ❤️ by [Son Nguyen](https://github.com/hoangsonww) in 2024.
